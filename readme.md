@@ -1,3 +1,18 @@
+This is a fork of the original Waveshare library, where I've added RLE decompression support for the *epd1in4b* model, in order to enable storing 9 bitmaps (4 black/white/red images + a b/w one) inside the `PROGMEM` of an *Arduino Lilypad*for the *Multiznachok (мультизначок)* project.
+
+![Bag with Multiznachock (мультизначок)](1.54inch_e-paper_b/arduino/doc-images/multiznachok.gif)
+
+There's also a python script to convert pbm images to the [homebrew] RLE format support by the library.
+
+For more information, see the [epd1in54bRLE/](1.54inch_e-paper_b/arduino) folder *(symbolic link to the only folder I've touched)*, and the `readme` file there.
+
+KTHXBYE
+
+----
+
+Original readme file:
+
+
 # Arduino libraries for Waveshare e-paper series
 Arduino libraries for Waveshare e-paper series 1.54"/1.54" B/2.13"/2.13" B/2.7"/2.7" B/2.9"/2.9" B/4.2"/4.2 B/7.5"/ 7.5" B
 ## Hardware connection (e-Paper --> Arduino)
