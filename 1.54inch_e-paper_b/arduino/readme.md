@@ -3,6 +3,8 @@ GDEW0154Z04 1.54" dual-color e-paper library for Arduino
 
 This is a fork of the original Waveshare library, where I've added RLE decompression support for the *epd1in4b* model, in order to enable storing 9 bitmaps (4 black/white/red images + a b/w one) inside the `PROGMEM` of an *Arduino Lilypad*for the *Multiznachok (мультизначок)* project.
 
+**Thanks to [sister](http://coensisters.org) @[tamaroty](https://github.com/tamaroty) for stitching and design ideas ❣**
+
 ![Bag with Multiznachock (мультизначок)](doc-images/multiznachok.gif)
 
 ## Installation
